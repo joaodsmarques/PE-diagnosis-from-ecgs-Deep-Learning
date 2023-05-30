@@ -26,7 +26,7 @@ There are 3 scripts, each one responsible for the training process of each netwo
 The files data_augmentation, focal loss and metrics_and_performance contain the data augmentation techniques applied, the focal loss implementation and metric related functions.
 
 you can simply run each model, having all the files in the same location, with the command: 
-### python 3 script_name.py
+#### -python 3 script_name.py
 
 Each hyperparameter has to be defined inside each script.
 
