@@ -17,6 +17,9 @@ There are 3 models:
 
 The first two models receive 12 lead ECG raw data, while the 2D network receives spectrograms. Each lead is composed of 4096 samples with a sampling frequency of 500Hz.
 
+## Dataset
+It was trained on an imbalanced dataset retrieved from the Hospital de Santa Maria database containing 1014 examples in total. Due to privacy policies, it is not publicly available.
+
 ## How to run
 There are 3 scripts, each one responsible for the training process of each network:
   - train_atten.py is the main 1D model training script correspondent to the resnet18_with_atten.py model;
