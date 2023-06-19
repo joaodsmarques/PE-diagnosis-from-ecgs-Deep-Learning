@@ -105,7 +105,6 @@ class ResNet(nn.Module):
         self.fc = nn.Sequential(
                                 nn.Linear(512*128, num_classes),
                                 nn.Dropout(0.5),
-                                nn.LogSoftmax(dim=1)
                                 )
         
     def forward(self, x):
