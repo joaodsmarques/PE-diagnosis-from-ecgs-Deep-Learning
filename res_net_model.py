@@ -114,7 +114,7 @@ class Special_Net(nn.Module):
                                     #nn.Linear(in_features = 200, out_features = 2)
                                     #nn.Dropout(0.2),                                    
                                     #nn.Linear(in_features = 64, out_features = 2)
-                                    nn.LogSoftmax(dim = 1)
+                                    
                                     #nn.Sigmoid()
             
             )
