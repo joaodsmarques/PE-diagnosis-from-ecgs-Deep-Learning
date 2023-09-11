@@ -1,4 +1,4 @@
-# PE diagnosis from ecgs Deep-Learning
+# Pulmonary embolism diagnosis from ecgs Deep-Learning
 
 Code of the paper:
 ### Artificial intelligence-based diagnosis of acute pulmonary embolism: Development of a machine learning model using 12-lead electrocardiogram
