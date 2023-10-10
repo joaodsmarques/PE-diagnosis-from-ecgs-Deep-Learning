@@ -8,6 +8,8 @@ Created on Wed Feb  1 21:24:36 2023
 import torch
 import torch.nn as nn
 from matplotlib import pyplot as plt
+import sys
+import numpy as np
 #Plot of the evolution of the training
 
 
@@ -21,6 +23,21 @@ def plot(epochs, plottable, name, ylabel=''):
     plt.plot(epochs, plottable)
     plt.show()
     #plt.savefig('%s.pdf' % (name), bbox_inches='tight')
+    
+def ecg_plot(ecg, name):
+    
+    plt.clf()
+    plt.xlabel(name)
+    
+    x_axis = len(ecg[0])
+    
+    for i in range(len(ecg)):
+        plt.plot(np.arange(x_axis), ecg[i])
+        plt.show()
+    
+    sys.exit()
+    
+    
 
 
 class plots_and_metrics:
