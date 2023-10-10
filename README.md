@@ -19,6 +19,8 @@ The first two models receive 12 lead ECG raw data, while the 2D network receives
 
 ## Dataset
 It was trained on an imbalanced dataset retrieved from the Hospital de Santa Maria database containing 1014 examples in total. Due to privacy policies, it is not publicly available.
+Each sample is composed of 12 leads with 5000 data points, correspondent to a signal length of 10s (fs = 500 Hz)
+The raw data is in xml format, and the sample's leads have the following identifiers ['I','II','III','aVR','aVL','aVF', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6'].
 
 ## How to run
 There are 3 scripts, each one responsible for the training process of each network:
