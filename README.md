@@ -33,4 +33,12 @@ you can simply run each model, having all the files in the same location, with t
 
 Each hyperparameter has to be defined inside each script.
 
+## Updates:
+
+There are two new models and a single script to run those two added to this repository. 
+
+- The script is called train_main_ecg and it is possible to tune hyperparameters using the YML file called "hyperparameters"
+- The RNN model file enables the use of a hybrid neural network composed of a ResNet and a RNN, LSTM or GRU.
+- The encoder model makes use of a transformer encoder with traditional positional encoding.
+
 
