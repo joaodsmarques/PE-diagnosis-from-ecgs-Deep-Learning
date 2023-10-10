@@ -72,7 +72,7 @@ def set_seed(seed):
 #Finish wandb
 wandb.finish()
 
-wandb_key = 'af533223d30eb23340ea3ff6687286eb3dafa6b2'
+wandb_key = "YOUR KEY"
 # start a new wandb run to track this script
 wandb.login(key = wandb_key)
 
