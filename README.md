@@ -35,7 +35,7 @@ you can simply run each model, having all the files in the same location, with t
 
 Each hyperparameter has to be defined inside each script.
 
-## Updates:
+## :writing_hand: Updates:
 
 There are two new models and a single script to run those two added to this repository. 
 
