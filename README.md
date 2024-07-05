@@ -43,4 +43,5 @@ There are two new models and a single script to run those two added to this repo
 - The RNN model file enables the use of a hybrid neural network composed of a ResNet and a RNN, LSTM or GRU.
 - The encoder model makes use of a transformer encoder with traditional positional encoding.
 
-
+## :shield: License
+Project is distributed under MIT License
